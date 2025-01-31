@@ -1,0 +1,3 @@
+This repository demonstrates a common but often overlooked issue in VBScript programming: runtime errors due to late binding.  Late binding, while convenient, carries the risk of failure if the objects or methods being used are not available at runtime. This is especially relevant when working with COM objects and libraries where version compatibility can be an issue.
+
+The `bug.vbs` file illustrates a scenario where late binding results in a runtime error. The solution, presented in `bugSolution.vbs`, demonstrates how early binding or error handling can be implemented to avoid these errors and enhance the robustness of your VBScript code.
